@@ -1,0 +1,90 @@
+Guidelines for Ambient Sound Annotation V1.1
+by Anonymous Contribution (January 2023)
+ 
+	1	Introduction
+These annotation guidelines aim at the systematic annotation of ambient sounds in literary prose texts by means of a binary categorization (explicit sound marking | no sound marking). The focus here is on ambient sounds. Ambient sounds are, e.g., the description of roaring wind, the rattling of machines, door slamming,
+There are different annotation guidelines for the task of human sound annotation.
+ 
+Who are the guidelines aimed at? What knowledge is required of annotators?
+These annotation guidelines are aimed at literary scholars or students of literary studies with prior knowledge of systematic text annotation and the recognition of sound descriptions in literary texts.
+ 
+	2	Annotation Units
+What are the units to be annotated? How can they be recognized?
+The following units are to be annotated:
+An annotation unit always consists of one word token. Span annotations are not intended (e.g., “to sob out” gets annotated as “to <sound>sob</sound> out”).
+A word should be annotated with the category "sound" if it explicitly describes a sound on the word level of the literary text.
+ 
+A distinction is made between implicit and explicit sound descriptions.
+ 
+a) Implicit sound description:
+Ex.1: The train is entering the station.
+The above sentence is an example of an implicit sound description. As experienced readers who have ever heard a train entering a station, we know that the arrival of the train is associated with sounds. Nevertheless, this sentence is not annotated because it is not an explicitly described sound.
+ 
+b) explicit sound description
+The example becomes an explicit sound description only when, for example, the action verb "enter" is exchanged for the sound-indicating verb "rattle," as in the following sentence:
+Ex.2: The train rattles into the station.
+ 
+In Ex.2, the rattling sound of the train arriving is explicitly named on the word level of the literary text, so that the sound can be attached to a word - here the verb. This word is then considered the unit to be annotated. 
+The train enters the station <sound>rattling</sound>. 
+
+However, there are substantives that cannot be silent like "stream", "torrent", whereas a train, e.g., does not indicate sound by its pure existence. Therefore, attention must be paid to annotate only the sound word itself and not the object that can produce a sound but does not need to do so in every situation (e.g.,  "the dressing-bell <sound>rang</sound>"). 
+ 
+	3	Annotation categories
+The annotation of ambient sound is limited to a binary annotation. Only the explicit occurrence of a sound indication on the word level is annotated (see explication in section 2). The two annotation categories to be used are "O" for "no annotation" and "sound" for the annotation of an ambient sound word.
+ 
+There is no closed list of ambient sound words to guide the annotators. However, some examples are listed in the appendix, sorted by Part of Speech Tag.
+ 
+	4	Exceptions
+Sometimes the sound of human beings is part of the soundscape. This is the case, for example, when the scream of a woman not identifiable as a literary character is described, or when the sound of a crowd singing or rumbling is mentioned. In this case, the sound word should be considered and annotated as an ambient sound word if it is a sound produced by an unidentifiable literary character or group of characters, and/or has no communicative purpose, i.e., does not convey a verbal message to a specific addressee.
+
+Only sounds actually realized in the fiction are annotated, whereby conditional statements about possibly realized sounds are ignored (e.g., “Oh, that some encouraging voice would answer in the affirmative!” (in Shelley 1818: Frankenstein) is a wish and not an actually realized voice). 
+The same applies to references to iterativity and generalizations (e.g., “the bells always rang at noon time” or “They often sang the Requiem at funeral services”, here “rang” and “sang” are not annotated). Also included are statements about the past of the fiction and about regularities (e.g., “This is how the trains have always rattled”), which are not annotated. 
+Narrative Framing takes place where the diegesis of the story happens at a narrative time that differs to a reported event from the past, e.g. when two characters have a long dialogue about an event in the past that triggers a diegetic level change (Frankenstein encounters the monster on the glacier where it tells the story what happened in the past years). 
+
+	5	Sound Word Properties
+Interesting are also the properties of sound words like adjectives and adverbs used to define the sound in more detail: 
+“The rain <sound>pattered</sound> dismally against the pane.”  (--> no annotation: “dismally”)
+Those properties or specifiers do not get annotated but when they indicat sound or loudness themselves: “The rain <sound>pattered</sound> <sound>noisily</sound> against the pane.”  (--> annotation of the loudness indicating sound property: “noisily”).
+
+	6	Negation
+Negated sounds are not annotated, because in these cases no realized sound is described in the fiction. The situation is different for explicitly described silence (e.g. There was a peaceful silence over the misty morning landscape). For ease of use, litotes (double negations) are annotated only when the double negated sound word without negation reveals the sound and thus can be meaningfully annotated as a simple sound word.
+ 
+	7	Annotation process
+The annotation is done in a simple excel-sheet with two columns. The first column contains the tokenized literary text. The second column is for the annotations. In the unannotated state, the column contains only the default tag "O" to indicate that there is no annotation. This default tag is overwritten with "sound" as soon as the first column contains an ambient sound word.
+ 
+token   annotation
+The     O
+train   O
+rattles sound
+into    O
+the     O
+station O
+.       O
+ 
+ 
+	8	Documentation of changes
+In the following, the changes to these guidelines are documented in order to be able to transparently present the revision process for future work with these guidelines and the use of older annotations.
+ 
+Changes to Version 1.0:
+	•	does not convey a verbal message to a specific addressee (exception: the character is addressing himself) weeping, screaming without verbal message
+	•	“environmental sound words” becomes “ambient sound words” due its nature of not being only sounds of the environment but include also sounds by human characters with non-communicative purpose
+ 
+	9	Examples for ambient sound words
+Depending on the context, some of the words may belong to another grouping or be part of more than one of the groupings or do not indicate sound.
+ 
+	•	Nouns: thunder, noise, jingle, bell, storm, wind, roaring, tumult, shot, shout, beep, silence, buzzing, hoofbeats, panting, roaring, roar, clanking,
+	•	Verbs: cracked, bloop, dribble, drip, drizzle, splash, spray, sprinkle, squirt, bam, bang, clang, clank, clap, clatter, click, clink, crash, crunch, ding, jingle, knock, screech, slap, smash, thud, thump, arf, bark, bray, buzz, cheep, chirp, chortle, cluck, cock-a-doodle-doo, cuckoo, hiss, honk, howl, purr, ribbit, tweet, warble,
+	•	Adjectives: loud, noisy, tumultuous, long-continued, peaceful, raging, snorting, rhythmic, muffled,
+	•	Adverbs: loudly, noisily, quietly, peacefully, 
+	•	Onomatopeia: see more on: http://www.writtensound.com/
+
+	10	Open questions and sample annotations
+
+"I will put some trust in preceding navigators [...] sailing over a calm sea."  (Shelley Frankenstein)
+→ ask yourself: Is there a calm sea in that actual scene or is it a report, wish, dream, vision?
+
+"Do you hear a sound like a footstep passing along the terrace, Watt?" (Dickens Bleak House) → no annotation of sound mentioned in a question
+
+"I shall be very glad to have you back safe and sound in Baker Street once more." (Conan Doyle The Hound of the Baskervilles) & "a great deal of sound sense" (Shelley Frankenstein)
+→ no annotation of “sound” as an adjective
+
