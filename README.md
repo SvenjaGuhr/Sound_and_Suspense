@@ -14,7 +14,7 @@ This repository contains:
 - XML files with automatically sound annotated corpus texts [https://github.com/SvenjaGuhr/Sound_and_Suspense/tree/main/NTEE_sound_predicted_corpus] 
 
 ## Models:
-Trained NEISS NTEE Models for automated sound annotation (too big to upload here - we're still looking for a solution to make the models accessible)
+Trained NEISS NTEE Models for automated sound annotation. The models can be regenerated using the indicated training data [https://github.com/SvenjaGuhr/Sound_and_Suspense/tree/main/annotated_data_for_NTEE]. For more information see the wiki of NEISS NTEE (TEI Entity Enricher) [https://github.com/NEISSproject/tei_entity_enricher].
 - Model trained on Training Set 1 with six manually annotated texts
 - Model trained on Training Set 2 with 11 manually and dictionary-annotated texts without correction of false positives
 - Model trained on Training Set 3 with 13 manually and dictionary-annotated texts without correction of false positives
