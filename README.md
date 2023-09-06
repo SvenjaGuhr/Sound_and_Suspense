@@ -28,7 +28,11 @@ Trained NEISS NTEE Models for automated sound annotation. The models can be rege
 
 ## Dataframes:
 - Dataframe with mapped manual annotations of sound and suspense for 4 texts with the generated plots in high resolution [https://github.com/SvenjaGuhr/Sound_and_Suspense/tree/main/Mapping_manual_sound_and_suspense_annotations]
-- Corpus metadata table [[[https://github.com/SvenjaGuhr/Sound_and_Suspense/blob/main/Corpus_Overview_2023.xlsx](https://github.com/SvenjaGuhr/Sound_and_Suspense/blob/main/Metadata_update_09_2023.csv)]]
+- Corpus metadata table [https://github.com/SvenjaGuhr/Sound_and_Suspense/blob/main/Corpus_Overview_2023.xlsx]
+
+## Journal for Computational Literary Studies 
+- Slides of Svenja Guhr's talk at the Conference of Computational Literary Studies (CCLS) on 23.06.2023 [https://github.com/SvenjaGuhr/Sound_and_Suspense/blob/main/Guhr_CCLS-talk_Sound_in_the_Gothic.pdf]
+- Link to the Conference Version of the JCLS-Paper Guhr, Svenja & Algee-Hewitt, Mark. (2023). "What’s that Scary Sound? Ambient Sound in Gothic Fiction", in: Schöch, Christof, Gius, Evelyn, Trilcke, Peer, & Ripoll, Élodie. (2023). Conference Reader: 2nd Annual Conference of Computational Literary Studies (Version v1). 2nd Annual Conference of Computational Literary Studies (CCLS2023), Würzburg, Germany. Zenodo. [https://doi.org/10.5281/zenodo.8093598].
 
 ## License:
 - Information on the GPL-3.0 license [https://github.com/SvenjaGuhr/Sound_and_Suspense/blob/main/LICENSE]
