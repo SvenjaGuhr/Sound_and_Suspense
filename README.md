@@ -28,7 +28,7 @@ Trained NEISS NTEE Models for automated sound annotation. The models can be rege
 
 ## Dataframes:
 - Dataframe with mapped manual annotations of sound and suspense for 4 texts with the generated plots in high resolution [https://github.com/SvenjaGuhr/Sound_and_Suspense/tree/main/Mapping_manual_sound_and_suspense_annotations]
-- Corpus metadata table [[https://github.com/SvenjaGuhr/Sound_and_Suspense/blob/main/Corpus_Overview_2023.xlsx](https://github.com/SvenjaGuhr/Sound_and_Suspense/blob/main/Metadata_update_09_2023.csv)]
+- Corpus metadata table [[[https://github.com/SvenjaGuhr/Sound_and_Suspense/blob/main/Corpus_Overview_2023.xlsx](https://github.com/SvenjaGuhr/Sound_and_Suspense/blob/main/Metadata_update_09_2023.csv)]]
 
 ## License:
 - Information on the GPL-3.0 license [https://github.com/SvenjaGuhr/Sound_and_Suspense/blob/main/LICENSE]
